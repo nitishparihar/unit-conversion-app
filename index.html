@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top-container">
+            <h1>Metric/Imperial unit conversion</h1>
+            <h3>Please enter the value in below box for conversion</h3>
+            <br>
+            <input class="input-box" type="number" placeholder="Enter the value" 
+            onkeyup="inputValueBox();conversion()">
+        </div>
+        <div class="bottom-container">
+            <h4>Length (Meter/Feet)</h4>
+            <span class="input-value"></span> meters = <span id="feet"></span> feet |
+            <span class="input-value"></span> feet = <span id="meters"> </span> meters
+            
+            <h4>Volume (Liters/Gallons)</h4>
+            <span class="input-value"></span> liters = <span id="gallons"></span> gallons |
+            <span class="input-value"></span> gallons = <span id="liters"></span> liters
+            
+            <h4>Mass (Kilograms/Pounds)</h4>
+            <span class="input-value"></span> kilos = <span id="pounds"></span> pounds |
+            <span class="input-value"></span> pounds = <span id="kilos"></span> kilos
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
