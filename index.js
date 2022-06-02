@@ -16,10 +16,10 @@ function inputValueBox() {
 }
 
 function conversion() {
-    feet.textContent = (event.target.value * 3.28084)
-    meters.textContent = (event.target.value * 0.3048)
-    gallons.textContent = (event.target.value * 0.264172)
-    liters.textContent = (event.target.value * 3.78541)
-    pounds.textContent = (event.target.value * 2.20462)
-    kilos.textContent = (event.target.value * 0.453592)
+    feet.textContent = (event.target.value * 3.281.toFixed(3))
+    meters.textContent = (event.target.value * 0.305.toFixed(3))
+    gallons.textContent = (event.target.value * 0.264.toFixed(3))
+    liters.textContent = (event.target.value * 3.785.toFixed(3))
+    pounds.textContent = (event.target.value * 2.205.toFixed(3))
+    kilos.textContent = (event.target.value * 0.454.toFixed(3))
 }
