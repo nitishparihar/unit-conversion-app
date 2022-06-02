@@ -7,12 +7,9 @@ let pounds = document.getElementById('pounds')
 let kilos = document.getElementById('kilos')
 
 function inputValueBox() {
-    inputValue[0].textContent = event.target.value
-    inputValue[1].textContent = event.target.value
-    inputValue[2].textContent = event.target.value
-    inputValue[3].textContent = event.target.value
-    inputValue[4].textContent = event.target.value
-    inputValue[5].textContent = event.target.value
+    for (let i = 0; i < inputValue.length; i++) {
+        inputValue[i].textContent = event.target.value
+    }
 }
 
 function conversion() {
