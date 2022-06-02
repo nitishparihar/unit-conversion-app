@@ -10,7 +10,7 @@ h1, h3 {
 }
 
 .top-container {
-    background-image: linear-gradient(#585DFE, #FB3796);
+    background-image: linear-gradient(to right, #585DFE, #FB3796);
     text-align: center;
     
     height: 230px;
